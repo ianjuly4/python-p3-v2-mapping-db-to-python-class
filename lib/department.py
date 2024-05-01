@@ -100,6 +100,7 @@ class Department:
             department.id = row[0]
             cls.all[department.id] = department
         return department
+    
     @classmethod
     def get_all(cls):
         """Return a list containing a Department object per row in the table"""
